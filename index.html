@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 </head>
 <form action="">
     <h1>REGISTRATE</h1>
-    <label for="nombre">Nombre</label><br>
+    <label for="nombre" class="subtitulos">Nombre</label><br> 
     <input type="text" name="nombre" id="nombre"><br>
-    <label for="apellido">Apellido</label><br>
+    <label for="apellido" class="subtitulos">Apellido</label><br>
     <input type="text" name="apellido" id="apellido"><br>
-    <label for="id">Tipo de identificación</label><br>
+    <label for="id" class="subtitulos">Tipo de identificación</label><br>
      <select name="id" id="id">
         <option value="cc">Cedula</option>
         <option value="ti">tarjeta de identidad</option>
         <option value="pas">pasaporte</option>
     </select><br>
-    <label for="nid">Número de identificación</label><br>
+    <label for="nid" class="subtitulos">Número de identificación</label><br>
     <input type="tel" name="nid" id="nid"><br>
-    <label for="tel">Telefono</label><br>
+    <label for="tel" class="subtitulos">Telefono</label><br>
     <input type="tel" name="tel" id="tel"><br>
-    <label for="ciudad">Ciudad</label><br>
+    <label for="ciudad" class="subtitulos">Ciudad</label><br>
     <input type="text" name="ciudad" id="ciudad"><br>
-    <label for="genero">Genero</label><br>
+    <label for="genero" class="subtitulos">Genero</label><br>
      <select name="genero" id="genero">
         <option value="m">masculino</option>
         <option value="f">femenino</option>
      </select><br>
-    <label for="fecha de nacimineto">Fecha de nacimiento</label><br>
+    <label for="fecha de nacimineto" class="subtitulos">Fecha de nacimiento</label><br>
     <input type="date" name="fecha de nacimiento" id="fecha de nacimiento"><br>
-    <label for="correo">Correo electronico</label><br>
+    <label for="correo" class="subtitulos">Correo electronico</label><br>
     <input type="email" name="correo" id="correo"><br>
-    <label for="contraseña">contraseña</label><br>
+    <label for="contraseña" class="subtitulos">Contraseña</label><br>
     <input type="password" name="contraseña" id="contraseña"><br>
-    <label for="contraseña">Confirmar contraseña</label><br>
-    <input type="password" name="contraseña" id="contraseña"><br><br>
-    <button>enviar</button>
+    <label for="contraseña" class="subtitulos">Confirmar contraseña</label><br>
+    <input type="password" name="contraseña" id="ccontraseña"><br><br>
+    <button id="boton">enviar</button>
 </form>
 
 </body>
